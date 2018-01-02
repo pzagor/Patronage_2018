@@ -1,0 +1,31 @@
+li {
+
+	 list-style-type: none;
+}
+
+li:hover {
+	color: black;
+	background-color: blue;
+}
+
+body {
+    background-color: lightblue;
+}
+img {
+	height: 50px;
+	width: 80px;
+}
+
+.moviesCounter 	{
+	font-weight: bold;
+}
+#moviesCountersContainer{
+		float: right;
+
+}
+#moviesListContainer{
+	clear: right;
+	margin: auto;
+	text-align: center;
+	width: 500px;
+}

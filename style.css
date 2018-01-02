@@ -1,16 +1,17 @@
-li {
 
+body {
+    background-color: lightblue;
+}
+
+li {
 	 list-style-type: none;
 }
 
 li:hover {
 	color: black;
-	background-color: blue;
+	background-color:  #ccddff;
 }
 
-body {
-    background-color: lightblue;
-}
 img {
 	height: 50px;
 	width: 80px;
@@ -19,13 +20,27 @@ img {
 .moviesCounter 	{
 	font-weight: bold;
 }
-#moviesCountersContainer{
-		float: right;
+
+.movie {
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
 
 }
+
+.title {
+	font-weight: bold;
+}
+
+#moviesCountersContainer{
+		float: right;
+}
+
 #moviesListContainer{
+	padding-top: 100px;
 	clear: right;
 	margin: auto;
 	text-align: center;
 	width: 500px;
 }
+
